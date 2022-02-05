@@ -33,11 +33,9 @@ async def sendembed(message, permalink, total_scans, positives, sus):
     colour = discord.Colour.red()
 
   embed = discord.Embed(
-  title = '**Virus Total Link Scan Result**',
-
-  # The link of the website in question
-  description = f'Website in question: \n{message.content}',
-  colour = colour
+    title = '**Virus Total Link Scan Result**',
+    description = f'Website in question: \n{message.content}',
+    colour = colour
   )
   embed.set_footer(text='Virus Total Bot',icon_url='https://res.cloudinary.com/crunchbase-production/image/upload/'
                                                    'c_lpad,h_256,w_256,f_auto,q_auto:eco,dpr_1/vxwo4yr27optg1jldgjf')
