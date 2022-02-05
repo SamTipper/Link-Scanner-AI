@@ -175,8 +175,5 @@ async def remveto(ctx):
   else:
     await ctx.send("There are no values in the blacklist.")
 
-
 keep_alive()
-
-
 client.run(TOKEN)
